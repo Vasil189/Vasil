@@ -1,0 +1,61 @@
+#include iostream
+using namespace std;
+void Cash(float money)
+{
+int i;
+int j;
+int k;
+int l;
+for (i = 0; money = 0.25; i++)
+{
+if (money = 0.25)
+{
+money -= 0.25;
+}
+}
+for (j = 0; money = 0.1; j++)
+{
+if (money = 0.1)
+{
+money -= 0.1;
+}
+}
+for (k = 0; money = 0.05; k++)
+{
+if (money = 0.05)
+{
+money -= 0.05;
+}
+}
+
+for (l = 0; money = 0.01; l++)
+{
+if (money = 0.01)
+{
+money -= 0.01;
+}
+}
+cout  i   25 nominal coinsn;
+cout  j   10 nominal coinsn;
+cout  k   5 nominal coinsn;
+cout  l   1 nominal coinsn;
+}
+int main()
+{
+float cash;
+while (true)
+{
+cout  Enter cash in coinsn;
+cin  cash;
+if (!cin)
+{
+cout  Uncorectly!n;
+cin.clear();
+while (cin.get() != 'n');
+}
+else break;
+}
+Cash(cash);
+system(pause);
+return 0;
+}
