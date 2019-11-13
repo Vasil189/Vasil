@@ -4,6 +4,7 @@
 using namespace std;
 int main()
 {
+  //Початок
  setlocale(0, "");
  cout << "< Строки : ";
  
@@ -15,7 +16,7 @@ int main()
  cout << "<1 - Перший варiант> \n";
  cout << "<2 - Другий варiант> \n";
   cin >> p;
-
+//Робочий код
 if (p == '1')
  {
 	      
@@ -65,7 +66,28 @@ if (p == '1')
   system("pause");
   exit(0);
  }
- 
+ //Повтор змінних
+ cout << "<Продолжить (y/n) ? >";
+ cout << " \n";
+ cin >> r;
+
+ if (r == 'y')
+ {
+  return main();
+  cout << " ";
+ }
+ else if (r == 'n')
+ {
+  exit(0);
+ }
+ else
+ {
+  cout << "Ошибка!" << endl;
+  system("pause");
+  exit(0);
+ }
+
+ cout << endl;
 
  system("pause");
  return 0;
